@@ -74,6 +74,6 @@ int main() {
 	} catch (const invalid_argument& e) {
     cout << "Blad: " << e.what() << endl;
 	}
-
+	system("pause");
 	return 0;
 }

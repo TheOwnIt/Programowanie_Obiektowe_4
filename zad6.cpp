@@ -30,5 +30,6 @@ int main() {
   } catch (const NegativeNumberException& e) {
     cerr << e.what() << endl;
   }
+	system("pause");
   return 0;
 }

@@ -84,15 +84,15 @@ int main() {
         stack.push(1);
         stack.push(2);
         stack.push(3);
-        cout << stack.top() << endl; // Output: 3
-        cout << stack.pop() << endl; // Output: 3
-        cout << stack.size() << endl; // Output: 2
+        cout << stack.top() << endl;
+        cout << stack.pop() << endl;
+        cout << stack.size() << endl; 
         stack.clear();
-        cout << stack.size() << endl; // Output: 0
+        cout << stack.size() << endl; 
     } catch (const exception& e) {
         cout << e.what() << endl;
     }
-
+	system("pause");
     return 0;
 }
 
